@@ -26,7 +26,7 @@ final class VigenereCipher
     {
         $cipher = '';
 
-        for ($i = 0; $i < strlen($text); $i++) {
+        for ($i = 0, $iMax = strlen($text); $i < $iMax; $i++) {
             $cipher .= $this->encodeLetter($text[$i], $i);
         }
 
@@ -37,7 +37,7 @@ final class VigenereCipher
     {
         $text = '';
 
-        for ($i = 0; $i < strlen($cipher); $i++) {
+        for ($i = 0, $iMax = strlen($cipher); $i < $iMax; $i++) {
             $text .= $this->decodeLetter($cipher[$i], $i);
         }
 
