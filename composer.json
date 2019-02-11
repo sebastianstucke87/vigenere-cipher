@@ -1,0 +1,20 @@
+{
+  "name": "sebastianstucke87/vigenere-cipher",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Sebastian Stucke",
+      "email": "sebastianstucke87@gmail.com"
+    }
+  ],
+  "require-dev": {
+    "roave/security-advisories": "dev-master",
+    "phpunit/phpunit": "8.0.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "VigenereCipher\\": "src/"
+    }
+  }
+}
