@@ -13,7 +13,7 @@ Included:
 
 The idea of DDD is opposed to anemic models where most of the logic is pushed away into services.
 
-For more information about the DDD concept as whole (inc. `Data Transfer Objects`) have a look at these excelled references:
+For more information about the DDD concept as whole (inc. `Data Transfer Objects`) have a look at these excellent references:
 - https://www.doctrine-project.org/projects/doctrine-orm/en/latest/tutorials/getting-started.html#adding-behavior-to-entities
 - https://web-techno.net/anemic-domain-model/
 - https://joind.in/event/php-uk-2017/driving-design-through-examples
